@@ -5,6 +5,6 @@ resource "aws_instance" "my-EC2" {
   ami             = var.ami_id
   instance_type   = var.instance_type
   tags = {
-    Name = "${var.env}terra-automate"
+    Name = "${var.env}-terra-automate"
   }
 }
